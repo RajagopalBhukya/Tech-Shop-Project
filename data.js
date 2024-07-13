@@ -137,32 +137,9 @@ const productsData = [
         rateCount: 4,
         path: "/product-details/",
     },
+ 
     {
         id: 7,
-        tag: "hero-product",
-        tagline: "Give your favourite music a boost.",
-        heroImage: "./images/products/sonyxb910n-1.png",
-        images: [
-            "../images/products/sonyxb910n-1.png",
-            "../images/products/sonyxb910n-2.png",
-            "../images/products/sonyxb910n-3.png",
-            "../images/products/sonyxb910n-4.png",
-        ],
-        brand: "Sony",
-        title: "Sony WH-XB910N",
-        info: "Wireless Over-Ear Headphones",
-        category: "Headphones",
-        type: "Over Ear",
-        connectivity: "Wireless",
-        finalPrice: 13489,
-        originalPrice: 19990,
-        quantity: 1,
-        ratings: 679,
-        rateCount: 4,
-        path: "/product-details/",
-    },
-    {
-        id: 8,
         tag: "featured-product",
         images: [
             "./images/products/jbl760nc-1.png",
@@ -184,7 +161,7 @@ const productsData = [
         path: "/product-details/",
     },
     {
-        id: 9,
+        id: 8,
         tag: "featured-product",
         images: [
             "./images/products/boat255r-1.png",
@@ -206,7 +183,7 @@ const productsData = [
         path: "/product-details/",
     },
     {
-        id: 10,
+        id: 9,
         images: [
             "./images/products/jbl100-1.png",
             "./images/products/jbl100-2.png",
@@ -227,7 +204,7 @@ const productsData = [
         path: "/product-details/",
     },
     {
-        id: 11,
+        id: 10,
         images: [
             "./images/products/sony1000xm4-1.png",
             "./images/products/sony1000xm4-2.png",
@@ -248,7 +225,7 @@ const productsData = [
         path: "/product-details/",
     },
     {
-        id: 12,
+        id: 11,
         images: [
             "./images/products/boat228-1.png",
             "./images/products/boat228-2.png",
@@ -269,7 +246,7 @@ const productsData = [
         path: "/product-details/",
     },
     {
-        id: 13,
+        id: 12,
         tag: "featured-product",
         images: [
             "./images/products/jbl-endu-1.png",
@@ -291,7 +268,7 @@ const productsData = [
         path: "/product-details/",
     },
     {
-        id: 14,
+        id: 13,
         tag: "featured-product",
         images: [
             "./images/products/boat203-1.png",
@@ -313,7 +290,7 @@ const productsData = [
         path: "/product-details/",
     },
     {
-        id: 15,
+        id: 14,
         images: [
             "./images/products/sonych710n-1.png",
             "./images/products/sonych710n-2.png",
@@ -334,7 +311,7 @@ const productsData = [
         path: "/product-details/",
     },
     {
-        id: 16,
+        id: 15,
         images: [
             "./images/products/jbl500bt-1.png",
             "./images/products/jbl500bt-2.png",
@@ -355,7 +332,7 @@ const productsData = [
         path: "/product-details/",
     },
     {
-        id: 17,
+        id: 16,
         images: [
             "./images/products/boat381-1.png",
             "./images/products/boat381-2.png",
@@ -376,7 +353,7 @@ const productsData = [
         path: "/product-details/",
     },
     {
-        id: 18,
+        id: 17,
         images: [
             "./images/products/sony-ex14ap-1.png",
             "./images/products/sony-ex14ap-2.png",
@@ -397,7 +374,7 @@ const productsData = [
         path: "/product-details/",
     },
     {
-        id: 19,
+        id: 18,
         images: [
             "./images/products/sonyxb400-1.png",
             "./images/products/sonyxb400-2.png",
@@ -414,6 +391,30 @@ const productsData = [
         originalPrice: 4990,
         quantity: 1,
         ratings: 474,
+        rateCount: 4,
+        path: "/product-details/",
+    },
+    {
+        id: 19,
+        tag: "hero-product",
+        tagline: "Give your favourite music a boost.",
+        heroImage: "./images/products/sonyxb910n-1.png",
+        images: [
+            "./images/products/sonyxb910n-1.png",
+            "./images/products/sonyxb910n-2.png",
+            "./images/products/sonyxb910n-3.png",
+            "./images/products/sonyxb910n-4.png",
+        ],
+        brand: "Sony",
+        title: "Sony WH-XB910N",
+        info: "Wireless Over-Ear Headphones",
+        category: "Headphones",
+        type: "Over Ear",
+        connectivity: "Wireless",
+        finalPrice: 13489,
+        originalPrice: 19990,
+        quantity: 1,
+        ratings: 679,
         rateCount: 4,
         path: "/product-details/",
     },
