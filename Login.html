@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- SignUp form starts here -->
+    <div class="mainContainer" id="signupContainer">
+        <div class="SignUpcontainer">
+            <h2>Signup</h2>
+            <p class="login"><span>Already have an account? Login</span> <span><a href="#" id="showlogin"><b>Login</b> </a></span></p>
+            <input type="text" name="Username" placeholder="Username" id="Username"><br>
+            <input type="email" name="Email" placeholder="Email" id="Email"><br>
+            <input type="password" name="Password" placeholder="Password" id="Password"><br>
+            <input type="password" name="Confirm Password" placeholder="Confirm Password" id="ConfirmPassword"><br>
+            <button id="signUpButton">Signup</button><br>
+        </div>
+
+        <p class="line">or login with</p>
+        <div class="socialMedia">
+            <p class="G">Google</p>
+            <p class="fb">Facebook</p>
+            <p class="T">Twitter</p>
+        </div>
+    </div>
+    <!-- SignUp form ends here -->
+
+    <!-- Login form starts here -->
+    <div class="mainContainer" style="display: none" id="loginContainer">
+        <div class="SignUpcontainer">
+            <h2>Login</h2>
+            <p class="login"><span>don't have an account?</span> <span><a href="#" id="showSignup"><b>Signup</b></a></span></p>
+            <input type="email" placeholder="Email" id="email"><br>
+            <input type="password" placeholder="Password" id="cpassword"><br>
+            <button id="loginButton">Login</button><br>
+        </div>
+
+        <p class="line">or login with</p>
+        <div class="socialMedia">
+            <p class="fb">Facebook</p>
+            <p class="G">Google</p>
+            <p class="T">Twitter</p>
+        </div>
+    </div>
+    <!-- Login form ends here -->
+
+    <script src="./Signin.js"></script>
+</body>
+</html>

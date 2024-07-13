@@ -1,0 +1,480 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.mainHeader{
+    height: 50px;
+    width: 100%;
+    color: white;
+    background-color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+
+}
+
+.heading a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.heading a .title{
+    padding: 0px 20px;
+}
+
+.threeitems ul a{
+    color: inherit;
+}
+
+.threeitems ul a li{
+    list-style:none;
+    padding: 0px 10px;
+}
+
+.threeitems ul{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+  .flex-container{
+    height: 600px;
+    width: 100%;
+    background-color: #141414;
+    overflow: hidden;
+  }
+
+  .bgtext{
+    font-size: 10px;
+  }
+
+
+
+
+.bgtext {
+    transform: translate(1%, 20%);
+    font-size: 220px;
+    font-weight: bolder;
+    mix-blend-mode: color-dodge;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.pdname {
+    transform: translate(10%, -420%);
+    font-size: 27px;
+    font-weight: bold;
+    color: #a8adc1;
+}
+
+.tagline {
+    transform: translate(20%, -100%);
+    font-size: 58px;
+    width: 600px;
+    font-weight: bold;
+    color: #a8adc1;
+}
+
+.price{
+    transform: translate(10%, -350%);
+    font-size: 30px;
+    font-weight: bold;
+    color: #a8adc1;
+}
+
+.featured-img{
+    height: 500px;
+    width: 500px;
+    transform: translate(105%, -90%);
+}
+
+.btn{
+    transform: translate(130%, -1350%);
+    background-color: red;
+    border: 0px;
+    font-size: large;
+    color: #a8adc1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ==========Featured Products ============ */
+
+.featuredproduct{
+    background-color: #141414;
+    text-align: center
+}
+.featuredproduct h2{
+    color: rgb(227, 223, 223);
+}
+
+/* ===========  =========== */
+
+/* ===========  ============= */
+.bgcolorforproducts{
+    background-color: #141414;
+    
+}
+
+.pics{
+    display: flex;
+    justify-content: space-around;
+    background-color: #141414;
+    overflow: hidden;
+    padding: 0px 25px;
+    padding-bottom: 130px;
+}
+
+.pics img{
+    height: 180px;
+    width: 180px;
+}
+
+.feature{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(181, 177, 177);
+}
+.one p{
+    text-align: center;
+    color: white;
+}
+
+.one p span{
+    text-align: center;
+    color: white;
+}
+
+.one{
+    height: 238px;
+    width: 175px;
+    margin-top: 100px;
+}
+
+/* ======================================== */
+
+.prdts{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.tabcontainer{
+    list-style: none;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+   
+    padding-top: 60px;
+}
+
+
+.fivefive{
+    font-size: 20px;
+
+    list-style: none;
+    padding: 10px;
+    color: #a8adc1;
+}
+
+.fivefive:hover{
+    background-color: red;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* .categories{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    list-style: none;
+}
+
+.categories li{
+    color:white;
+    padding: 2px 5px;
+}
+.categories li.active{
+ background-color: red;
+ cursor: pointer;
+}
+
+.starcolor{
+    color: red;
+}
+.allcards{
+    height: auto;
+    display: flex;
+    gap:6px;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+
+}
+.card{
+    
+    width: 300px;
+    border:1px solid white;
+    margin-bottom: 9px;
+    padding: 10px;
+}
+.card .pics{
+    height: 150px;
+    width:185px ;
+    margin: 22px 62px;
+} */
+
+/* ======style for featuredcards =========*/
+
+
+.productcardstyle{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    /* justify-content: center; */
+    gap: 20px;
+    background-color: #141414;
+}
+
+
+.layoutcards{
+    padding: 30px 20px;
+    align-items: center;
+    border: 1px solid #a8adc1;
+    width: 230px;   
+    height: 450px;
+    margin: auto 3px;
+}
+.product-image{
+    height: 200px;
+    width: 200px;
+    padding: 20px ;
+}
+
+.product-image:hover{
+    transform: scale(1.2);
+    display: inline;
+    /* overflow: hidden; */
+}
+
+.fa-star{
+    color: red;
+    padding-bottom: 10px;
+    font-size: x-large;
+}
+.layoutcards h3{
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+.layoutcards p{
+    font-size: 20px;
+    color: white;
+}
+.product-price{
+    color: #a8adc1;
+    font-size: 10px;
+    padding: 15px 0px 15px 0px;
+ }
+ .product-price span{
+    color: #a8adc1;
+    font-size: 30px;
+ }
+ .productbtn{
+    width: 200px;
+    padding: 10px;
+    font-size: large;
+    border: 0px ;
+    border-radius: 5px;
+    background-color: red;
+    color:#a8adc1;
+ }
+
+
+ /* ====================================== */
+
+.advantages{
+    text-align: center;
+    color: white;
+    background-color: #141414;
+   padding: 50px 0px;
+}
+
+
+/* ================================ */
+
+.wholeicontext{
+    background-color: #141414;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+}
+
+
+.iconsandtext{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icontext p{
+    color: aliceblue;
+    font-size: large;
+}
+
+.icontext span{
+    color: white;
+}
+
+.icones .fa-solid{
+    color: red;
+    font-size: xx-large;
+}
+
+/* =====Footer styling ========= */
+
+.footerwork{
+    background-color: #000000;
+    height: 400px;
+}
+
+.footerwork h2{
+    color: white;
+    padding: 40px 10px;
+}
+
+.footerwork p{
+    color: white;
+    padding: 10px 10px;
+}
+
+.footerfoot{
+    display: flex;
+    justify-content: space-around;
+}
+.emailfoot input{
+    height: 40px;
+    width: 280px;
+    font-size: larger;
+    padding-left: 12px;
+    border-radius: 8px;
+    border: white;
+    margin-bottom: 15px;
+}
+.emailfoot button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-size: large;
+    border-radius: 8px;
+    border: none;
+    background-color: red;
+}
+
+.font-awesome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    
+}
+
+.brands {
+    font-size: x-large;
+    padding: 10px 0px; 
+    gap: 50px;
+}
+
+.brands .fa-brands{
+    gap: 50PX;
+}
+
+/* ================================= */
+/* =============Login And Sign Up Styling================ */
+
+
+.mainContainer{
+    width : 600px;
+    color : white;
+    margin: 190px auto;
+   
+}
+
+.SignUpcontainer{
+    border : 1px solid black ;
+    width : auto;
+    padding: 10px 10px 5px 10px;
+    background-color: #000;
+    color : white;
+   
+    
+}
+.SignUpcontainer h2,p{
+    padding: 5px 0px;
+}
+.SignUpcontainer input{
+    width : 98%;
+    background-color: #000;
+    color : white;
+    padding: 5px;
+    margin-bottom : 6px;
+}
+.SignUpcontainer button{
+    width : 100%;
+    background-color: red;
+    color : white;
+    padding: 8px;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+   color :#000;
+
+}
+.line:before,.line:after{
+    content: "";
+    flex :1 1;
+    border-bottom: 2px solid black;
+    margin: 15px;
+   
+
+}
+.socialMedia {
+    display : flex;
+    justify-content: space-around;
+}
+.socialMedia .fb{
+    border : 1px solid black;
+    border: none;
+    width : 120px;
+    padding: 8px 16px;
+    text-align: center;
+    background-color: darkblue;
+    color : white;
+    
+}
+.socialMedia .G{
+    border : 1px solid black;
+    border: none;
+    width : 120px;
+    padding: 8px 16px;
+    text-align: center;
+    background-color:orangered;
+    color : white;
+    
+}
+.socialMedia .T{
+    border : 1px solid black;
+    border: none;
+    width : 120px;
+    padding: 8px 16px;
+    text-align: center;
+    background-color:rgb(26, 167, 219);
+    color : white;
+    
+}
+
